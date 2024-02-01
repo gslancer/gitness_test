@@ -1,17 +1,17 @@
 /*
  * @Author: horyan
  * @Date: 2022-12-23 09:24:03
- * @LastEditTime: 2022-12-26 14:14:41
+ * @LastEditTime: 2024-02-01 11:13:55
  * @LastEditors: horyan
  * @Description:
- * @FilePath: /20221223-init/.eslintrc.cjs
+ * @FilePath: \gitness_test\.eslintrc.cjs
  */
 module.exports = {
   root: true,
   env: {
     node: true,
     browser: true,
-    es2021: true
+    es2022: true
   },
   parser: 'vue-eslint-parser',
   parserOptions: {

@@ -1,10 +1,10 @@
 /*
  * @Author: horyan
  * @Date: 2022-12-19 11:48:20
- * @LastEditTime: 2022-12-23 10:35:12
+ * @LastEditTime: 2024-02-01 11:48:26
  * @LastEditors: horyan
  * @Description:
- * @FilePath: /20221223-init/src/store/modules/app.ts
+ * @FilePath: \gitness_test\src\store\modules\app.ts
  */
 import { defineStore } from 'pinia'
 import { generatorDynamicRouter } from '@/router/generator-router'
@@ -14,7 +14,7 @@ export const useAppStore = defineStore('app', {
     themes: 'light', // 主题: light 亮色； dark 暗黑
     windowHeight:
       (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight) -
-        350 ?? 370
+        350
   }),
   actions: {
     async RESET_APP_STATE() {

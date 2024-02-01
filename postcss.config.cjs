@@ -1,14 +1,13 @@
 /*
  * @Author: horyan
  * @Date: 2022-12-23 09:24:22
- * @LastEditTime: 2022-12-23 10:46:19
+ * @LastEditTime: 2024-02-01 11:45:57
  * @LastEditors: horyan
  * @Description:
- * @FilePath: /20221223-init/postcss.config.cjs
+ * @FilePath: \gitness_test\postcss.config.cjs
  */
 module.exports = {
   plugins: {
-    tailwindcss: {},
     autoprefixer: {},
     'postcss-px-to-viewport-8-plugin': {
       unitToConvert: 'px', // 需要转换的单位，默认为"px"
