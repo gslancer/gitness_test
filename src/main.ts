@@ -12,7 +12,6 @@ import router from '@/router'
 import { createPinia } from 'pinia'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 import '@/router/guards'
-import '@/style/tailwind.css'
 
 const app = createApp(App)
 const pinia = createPinia()
